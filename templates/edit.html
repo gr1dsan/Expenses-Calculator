@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <h1>Edit purchase</h1>
+    </head>
+
+    <body>
+        
+        <form action="/update/{{task.Item_Id}}" method="POST">
+            <h4>Enter name</h4>
+            <input type="text" name="content" id="content" value="{{task.Item_Name}}">
+            <h4>Enter date</h4>
+            <input type="text" name="date" id="date" value="{{task.Item_Date}}">
+            <h4>Enter price</h4>
+            <input type="text" name="price" id="price" value="{{task.Item_Price}}">
+            <h4>Enter description (optional)</h4>
+            <input type="text" name="description" id="description" value="{{task.Item_Description}}">
+            <h4>Choose category</h4>
+            <label for="category"></label>
+            <select id="category" name="category">
+                <option value="category">Select Category</option>
+                <option value="groseries">Groceries</option>
+                <option value="restaurants">Restaurants & Cafés</option>
+                <option value="pharmacy">Pharmacy & Health Products</option>
+                <option value="public_transport">Public Transport</option>
+                <option value="others">Others</option>
+            </select>
+            <h4></h4>
+            <input type="submit" value="Update Purchase">
+        </form>
+    </body>
+</html>
