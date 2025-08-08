@@ -32,25 +32,22 @@ Prerequisites:
 Steps
 
 1. Clone the repository:
-
+------
 2. Create and activate a virtual environment (optional but recommended):
 
     python -m venv venv
 
     On Windows: venv\Scripts\activate
    
-    On macOS/Linux: source venv/bin/activate
-    
-
-4. Install dependencies from `requirements.txt`:
+    On macOS/Linux: source venv/bin/activate    
+------
+3. Install dependencies from `requirements.txt`:
 
     pip install -r requirements.txt
-
-
-5. Run the Flask application
-
-
-6. Open your browser and go to:
+------
+4. Run the Flask application
+------
+5. Open your browser and go to:
 
     http://localhost:5000
 
