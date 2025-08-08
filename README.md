@@ -38,18 +38,19 @@ Steps
     python -m venv venv
 
     On Windows: venv\Scripts\activate
+   
     On macOS/Linux: source venv/bin/activate
     
 
-3. Install dependencies from `requirements.txt`:
+4. Install dependencies from `requirements.txt`:
 
     pip install -r requirements.txt
 
 
-4. Run the Flask application
+5. Run the Flask application
 
 
-5. Open your browser and go to:
+6. Open your browser and go to:
 
     http://localhost:5000
 
