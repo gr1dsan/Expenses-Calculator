@@ -1,2 +1,57 @@
-# Expenses-Calculator
+#Expenses Calculator
+
 A simple and intuitive web application designed to help users track, manage, and analyze their daily expenses across multiple categories. It offers easy data entry, editing, deletion, and visualization of spending patterns through an interactive pie chart.
+
+
+#Features:
+
+-Add Expenses: Users can input expense details including name, date, price, description (optional), and category.
+-Edit & Delete: Modify or remove existing expense entries effortlessly.
+-Categorized Expenses: Supports categories such as Groceries, Restaurants & Cafés, Pharmacy & Health Products, Public Transport, and Others.
+-Expense Overview: Displays expenses in a tabular format with clear categorization and color coding.
+-Data Visualization Pie chart representation of spending by category for better insights.
+-Responsive Layout: Clean, modern UI designed for ease of use and clarity.
+
+#Technologies Used
+
+-Backend: Python with Flask web framework
+-Frontend: HTML5, CSS3, JavaScript
+-Data Visualization: Chart.js library for pie chart display
+-Database: SQLite (or your choice of database) for storing expenses
+
+
+
+#Installation
+
+Prerequisites:
+
+-Python 3.x installed on your machine
+-`pip` package manager
+
+
+#Steps
+
+1. Clone the repository:
+
+2. Create and activate a virtual environment (optional but recommended):
+
+    python -m venv venv
+
+    On Windows: venv\Scripts\activate
+    On macOS/Linux: source venv/bin/activate
+    
+
+3. Install dependencies from `requirements.txt`:
+
+    pip install -r requirements.txt
+
+
+4. Run the Flask application
+
+
+5. Open your browser and go to:
+
+    http://localhost:5000
+
+
+#Enjoy!
