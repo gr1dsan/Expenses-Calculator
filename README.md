@@ -1,9 +1,9 @@
-#Expenses Calculator
+Expenses Calculator
 
 A simple and intuitive web application designed to help users track, manage, and analyze their daily expenses across multiple categories. It offers easy data entry, editing, deletion, and visualization of spending patterns through an interactive pie chart.
 
 
-#Features:
+Features:
 
 -Add Expenses: Users can input expense details including name, date, price, description (optional), and category.
 -Edit & Delete: Modify or remove existing expense entries effortlessly.
@@ -12,7 +12,7 @@ A simple and intuitive web application designed to help users track, manage, and
 -Data Visualization Pie chart representation of spending by category for better insights.
 -Responsive Layout: Clean, modern UI designed for ease of use and clarity.
 
-#Technologies Used
+Technologies Used
 
 -Backend: Python with Flask web framework
 -Frontend: HTML5, CSS3, JavaScript
@@ -21,7 +21,7 @@ A simple and intuitive web application designed to help users track, manage, and
 
 
 
-#Installation
+Installation
 
 Prerequisites:
 
@@ -29,7 +29,7 @@ Prerequisites:
 -`pip` package manager
 
 
-#Steps
+Steps
 
 1. Clone the repository:
 
@@ -54,4 +54,4 @@ Prerequisites:
     http://localhost:5000
 
 
-#Enjoy!
+Enjoy!
